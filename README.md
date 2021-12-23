@@ -4,7 +4,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
 
 ![alt text](https://github.com/gabrielvgarcia/Tic-tac-toe/tree/main/Tic-tac-toe.Domain/Images/tictactoe.jpeg)
-<img src="D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe.Domain\Images\tictactoe.jpeg" alt="tictactoe">
+<img src="https://github.com/gabrielvgarcia/Tic-tac-toe/blob/main/Tic-tac-toe.Domain/Images/tictactoe.jpeg" alt="tictactoe">
 
 > This is a console application (CLI) game where 2 users can battle to the death.
 
