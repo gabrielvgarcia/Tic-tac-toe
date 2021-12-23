@@ -1,7 +1,6 @@
 # Tic Tac Toe Project
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
 
 <img src="https://github.com/gabrielvgarcia/Tic-tac-toe/blob/main/Tic-tac-toe.Domain/Images/tictactoe.jpeg" alt="tictactoe">
 
@@ -61,6 +60,10 @@ it is also possible for the game to end in a draw, as in the example below.
 OUTPUT:
 It's a tie!
 ```
+<div align="center">
+  <p>Thanks for reading this, below my contacts.</p>
+  <h1>Gabriel Vianna Garcia>
+</div>
 
 <p align="center">
   <a href="https://instagram.com/gabrvgarcia" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
