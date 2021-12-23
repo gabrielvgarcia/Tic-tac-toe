@@ -14,7 +14,7 @@ Before starting, make sure you have met the following requirements:
 
 ## ☕ How to play <Tic tac toe>
 
-Para usar <nome_do_projeto>, siga estas etapas:
+To play Tic Tac Toe follow these steps:
 
 ```
 you will need to enter a value corresponding to the numbers that appear in the tic-tac-toe.
