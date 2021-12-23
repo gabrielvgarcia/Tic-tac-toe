@@ -62,7 +62,7 @@ It's a tie!
 ```
 <div align="center">
   <p>Thanks for reading this, below my contacts.</p>
-  <h1>Gabriel Vianna Garcia>
+  <h1>Gabriel Vianna Garcia</h1>
 </div>
 
 <p align="center">
