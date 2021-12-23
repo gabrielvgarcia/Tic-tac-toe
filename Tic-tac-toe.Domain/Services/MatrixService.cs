@@ -16,6 +16,8 @@ namespace Tic_tac_toe.Domain.Services
                 }
                 Console.WriteLine();
             }
+            Console.WriteLine();
+            Console.WriteLine("Please enter a number corresponding to a tic-tac-toe position above.");
         }
 
         public Game RenderMatrix(Game game)

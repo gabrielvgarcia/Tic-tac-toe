@@ -41,8 +41,8 @@ namespace Tic_tac_toe.Domain.Services
                 if (ValidateGameStatus(game))
                 {
                     Console.WriteLine();
-                    Console.WriteLine("Fim de jogo");
-                    Console.WriteLine($"Parabéns, o ganhador é {game.CurrentPlayer}");
+                    Console.WriteLine("End of the game");
+                    Console.WriteLine($"Congratulations, the winner is {game.CurrentPlayer}");
                     break;
                 }
 
@@ -59,7 +59,7 @@ namespace Tic_tac_toe.Domain.Services
             }
 
             if (game.Moves == game.Matrix.MatrixSize.Length)
-                Console.WriteLine("Ninguém ganhou!");
+                Console.WriteLine(MappedErrors.TIERESULT.GetDescription());
 
             Console.ReadLine();
         }
