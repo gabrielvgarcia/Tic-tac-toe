@@ -1,0 +1,12 @@
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe.Domain\obj\Debug\net5.0\Tic-tac-toe.Domain.csproj.AssemblyReference.cache
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe.Domain\obj\Debug\net5.0\Tic-tac-toe.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe.Domain\obj\Debug\net5.0\Tic-tac-toe.Domain.AssemblyInfoInputs.cache
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe.Domain\obj\Debug\net5.0\Tic-tac-toe.Domain.AssemblyInfo.cs
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe.Domain\obj\Debug\net5.0\Tic-tac-toe.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe.Domain\bin\Debug\net5.0\Tic-tac-toe.Domain.deps.json
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe.Domain\bin\Debug\net5.0\Tic-tac-toe.Domain.dll
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe.Domain\bin\Debug\net5.0\ref\Tic-tac-toe.Domain.dll
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe.Domain\bin\Debug\net5.0\Tic-tac-toe.Domain.pdb
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe.Domain\obj\Debug\net5.0\Tic-tac-toe.Domain.dll
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe.Domain\obj\Debug\net5.0\ref\Tic-tac-toe.Domain.dll
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe.Domain\obj\Debug\net5.0\Tic-tac-toe.Domain.pdb
