@@ -5,4 +5,8 @@
     <RootNamespace>Tic_tac_toe.Domain</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Enums.NET" Version="4.0.0" />
+  </ItemGroup>
+
 </Project>

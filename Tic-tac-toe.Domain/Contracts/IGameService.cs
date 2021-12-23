@@ -7,6 +7,7 @@ namespace Tic_tac_toe.Domain.Contracts
         public void StartGame(Game game);
         public bool ValidateGameStatus(Game game);
         public void PrintGreeting();
-        public string ReadInput(string currentPlayer);
+        public string ReadInput(Game game);
+        public string ValidateMove(Game game, string move);
     }
 }

@@ -23,8 +23,8 @@ namespace Tic_tac_toe.Domain.Services
             game = matrixService.RenderMatrix(game);
 
             matrixService.PrintMatrix(game);
-            
-            string currentMove = ReadInput(game.CurrentPlayer);
+
+            string currentMove = ReadInput(game);
 
             Console.Clear();
 
@@ -51,26 +51,15 @@ namespace Tic_tac_toe.Domain.Services
                 else
                     game.CurrentPlayer = EnumPlayerType.X.ToString();
 
-                currentMove = ReadInput(game.CurrentPlayer);
+                currentMove = ReadInput(game);
 
                 game.Moves++;
-
-                while (!game.Matrix.IndexNumbers.Contains(currentMove))
-                {
-                    Console.WriteLine();
-
-                    Console.Write("firstPlay inválida. Tente novamente: ");
-
-                    currentMove = Console.ReadLine();
-                }
 
                 Console.Clear();
             }
 
             if (game.Moves == game.Matrix.MatrixSize.Length)
-            {
                 Console.WriteLine("Ninguém ganhou!");
-            }
 
             Console.ReadLine();
         }
@@ -90,12 +79,12 @@ namespace Tic_tac_toe.Domain.Services
                 // Check secondary diagonal
                 string[] secondary = game.Matrix.MatrixSize.GetDiagonal(axis: "y");
 
-                return rows.Distinct().Count() == 1 ||
+                if (rows.Distinct().Count() == 1 ||
                        columns.Distinct().Count() == 1 ||
                        primary.Distinct().Count() == 1 ||
-                       secondary.Distinct().Count() == 1;
+                       secondary.Distinct().Count() == 1)
+                    return true;
             }
-
             return false;
         }
         public void PrintGreeting()
@@ -104,13 +93,28 @@ namespace Tic_tac_toe.Domain.Services
             Console.WriteLine("          Tic Tac Toe          ");
             Console.WriteLine("-------------------------------");
         }
-        public string ReadInput(string currentPlayer)
+        public string ReadInput(Game game)
         {
             Console.WriteLine();
-            Console.Write($"Você quer jogar [{currentPlayer}] em qual posição? ");
-            string response = Console.ReadLine();
+            Console.Write($"Type the next move of player --{game.CurrentPlayer}--: ");
+            string move = Console.ReadLine();
 
-            return response;
+            move = ValidateMove(game, move);
+
+            return move;
+        }
+        public string ValidateMove(Game game, string move)
+        {
+            while (!game.Matrix.IndexNumbers.Contains(move))
+            {
+                Console.WriteLine();
+
+                Console.Write(MappedErrors.INVALIDPLAY.GetDescription());
+
+                move = Console.ReadLine();
+            }
+
+            return move;
         }
     }
 }

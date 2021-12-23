@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NWE715GP5jm1yjocNzKFVdNdaSnFaPDmRwnjnoSPCHRctJ8r1bQ5bFBWviSgX8BicDQFBRIAJKMMvgFlx033sQ==",
+  "dgSpecHash": "d4ytIKrQzotAtBdCcQ2KunnD9R4b2FZMPkwO1Mg1r4SbIRfAC1wsitpAHooA9iHbH39LUfQH+uVpo4AmofrFfw==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe.Domain\\Tic-tac-toe.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\gabriel.garcia\\.nuget\\packages\\enums.net\\4.0.0\\enums.net.4.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

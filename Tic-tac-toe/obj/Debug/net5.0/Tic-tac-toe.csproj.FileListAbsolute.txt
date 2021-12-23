@@ -18,3 +18,7 @@ D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe\bin\Debug\net5.0\MoreLinq.dll
 D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe\obj\Debug\net5.0\Tic-tac-toe.csproj.CopyComplete
 D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe\bin\Debug\net5.0\Tic-tac-toe.Domain.dll
 D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe\bin\Debug\net5.0\Tic-tac-toe.Domain.pdb
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projetos\Tic-tac-toe\Tic-tac-toe\Tic-tac-toe\bin\Debug\net5.0\Enums.NET.dll

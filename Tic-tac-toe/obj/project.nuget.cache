@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OLJ3tGQd55xynYP9/BIHiRXXey6bL/wMWU5hoGJXJpW2znKZF550tMR6gavH/pPspiWF6IYDKfEd/2C5tPPrWQ==",
+  "dgSpecHash": "fQNxygPKUWu2+mzhxFy08kkaX4me2d91iMitWmBguCfQzz2iNhruSjcBYTBobyDKOWLk//vVDLXXyYafozsAgA==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gabriel.garcia\\.nuget\\packages\\enums.net\\4.0.0\\enums.net.4.0.0.nupkg.sha512",
     "C:\\Users\\gabriel.garcia\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\gabriel.garcia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\gabriel.garcia\\.nuget\\packages\\morelinq\\3.3.2\\morelinq.3.3.2.nupkg.sha512",
