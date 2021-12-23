@@ -32,10 +32,8 @@ namespace Tic_tac_toe.Domain.Services
             {
                 PrintGreeting();
 
-                //Substituir o valor na sua respectiva casa
                 game = matrixService.ReplaceValue(game, currentMove);
 
-                //Imprimir a matriz
                 matrixService.PrintMatrix(game);
 
                 if (ValidateGameStatus(game))
