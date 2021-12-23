@@ -7,18 +7,26 @@ namespace Tic_tac_toe.Domain.Extensions
 {
     public static class EnumExtensions
     {
-        public static string GetDescription(this Enum genericEnum)
+        public static string GetDescription(this IConvertible value)
         {
-            Type genericEnumType = genericEnum.GetType();
-            MemberInfo[] memberInfo = genericEnumType.GetMember(genericEnum.ToString());
-            if (memberInfo is { Length: > 0 })
-            {
-                object[] _Attribs = memberInfo[0].GetCustomAttributes(typeof(DescriptionAttribute), false);
-                if (_Attribs is { Length: > 0 })
-                    return ((DescriptionAttribute)_Attribs.ElementAt(0)).Description;
-            }
+            FieldInfo fi = value.GetType().GetField(value.ToString());
 
-            return genericEnum.ToString();
+            try
+            {
+                DescriptionAttribute[] attributes =
+                (DescriptionAttribute[])fi.GetCustomAttributes(
+                typeof(DescriptionAttribute),
+                false);
+
+                if (attributes != null && attributes.Length > 0)
+                    return attributes[0].Description;
+                else
+                    return value.ToString();
+            }
+            catch (Exception)
+            {
+                return value.ToString();
+            }
         }
     }
 }
